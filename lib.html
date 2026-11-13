@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Book Donation Form</h1>
+
+<form>
+    <fieldset>
+        <legend>Donor Details</legend>
+            <label>Name</label>
+            <input type="text" placeholder="Input name here"><br><br>
+            <label>Donor ID</label>
+            <input type="password" placeholder="input password here"><br><br>
+            <label>Donation Date</label>
+            <input type="date">
+        </legend>
+    </fieldset>
+    <br>
+    
+
+    <fieldset>
+        <legend>Book Details</legend>
+        <select id="book detail">
+            <option value="">--Book Category--</option>
+            <option value="fiction">Fiction</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            <option value="education">Education</option>
+        </select>
+        <br><br>
+
+        <label>Book Condition</label><br>
+        <input type="radio" name="condition" value="new">New<br>
+        <input type="radio" name="condition" value="good">Good<br>
+        <input type="radio" name="condition" value="used">Used<br>
+        <br>
+        <label>For notes on your book!</label><br>
+        <textarea id="notes" cols="35" rows="5" placeholder="Type your book title and notes here!"></textarea>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Drop-Off Day</legend>
+        <input type="checkbox" value="mon">Monday<br>
+        <input type="checkbox" value="wed">Wednesday<br>
+        <input type="checkbox" value="fri">Friday<br>
+    </fieldset>
+    <br>
+
+    <label>Submit book here!</label>
+    <input type="submit" value="Submit">
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- PART 1: Donor Details -->
+  <!-- Add a fieldset with the legend "Donor Details". -->
+  <!-- Inside it add three fields, each with a label: -->
+  <!--   Your Name (text), Donor ID (password), Donation Date (date) -->
+   
+
+
+  <!-- PART 2: Book Details -->
+  <!-- Add a fieldset with the legend "Book Details". -->
+  <!-- Inside it add: -->
+  <!--   a drop-down "Book Category" with Fiction, Science, History, Education -->
+  <!--   three radio buttons "Book Condition": Like New, Good, Used -->
+
+
+  <!-- PART 3: Title or notes -->
+  <!-- Inside the Book Details fieldset, add a label and a textarea -->
+  <!-- for the book title or any notes. -->
+
+
+  <!-- PART 4: Drop-off days and button -->
+  <!-- Add a fieldset with the legend "Drop-Off Day". -->
+  <!-- Add three checkboxes: Monday, Wednesday, Friday. -->
+  <!-- After the fieldsets, add a submit button that says "Donate My Book". -->
+
+</form>
+
+    
+</body>
+</html>
